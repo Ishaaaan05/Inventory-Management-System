@@ -10,6 +10,6 @@ namespace InventoryManagementSystem.Api.Models
         public string ContactPhone { get; set; } = null!;
         public string Address { get; set; } = null!;
         
-        public ICollection<Product>? Products { get; set; }
+        // public ICollection<Product>? Products { get; set; }
     }
 }
